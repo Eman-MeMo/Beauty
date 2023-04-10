@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="images/index.jpg">
+
+<head>
+    <title>Beauty</title>
+</head>
+
+<body>
+    <nav>
+        <div class="html-container">
+            <div class="html-section">
+                <div class="html-project">
+                    <div class="navigation">
+                        <nav>
+                            <ul class="nav-type">
+                                <img class="logo" src="images/index.jpg">
+                                <li class="active0">Beauty</li>
+                                <li><a href="#" class="Other-active">Home</a>
+                                </li>
+                                <li><a href="#gallery" class="Other-active">Gallery</a></li>
+                                <li><a href="#contact" class="Other-active">Contact Us</a></li>
+                                
+                                <li><a><i class="fa fa-search" onclick="show()">
+                                        </i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <div class="parent">
+        <div class="div-1"></div>
+        <div class="div-2"></div>
+        <div class="div-3">
+            <div>
+                <p>A woman's interest in her beauty is <br>the most important 
+                    thing for her<br> and here you will find everything you wish for.
+                <span style="color: rgb(155 29 53);">Beauty</span> will meet all <br>your needs.</p>
+            </div>
+        </div>
+        <div class="div-4"></div>
+    </div>
+<div>
+    <h1 class="header"  id="gallery">Welcome To <span style="color: rgb(230, 41, 76);">Beauty</span> Gallery</h1>
+    <div class="flex" >
+        <div class="box box1">
+            <div class="face front"></div>
+            <div class="face back">
+                <h5>Lipstick</h5>
+                <p>price : 70$ </p>
+                <p>10 pieces</p>
+                <button class="btnGallery"><a href="#rog">See its Collection</a></button>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class="face front"></div>
+            <div class="face back">
+                <h5>Brushes</h5>
+                <p>price : 100$ </p>
+                <p>6 pieces</p>
+                <button class="btnGallery"><a href="#brushes">See its Collection</a></button>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="face front"></div>
+            <div class="face back">
+                    <h5>Eye Liner</h5>
+                    <p>price : 80$ </p>
+                    <p>3 pieces</p>
+                    <button class="btnGallery"><a href="#eyeliner">See its Collection</a></button>
+                </div>
+            </div>
+        <div class="box box4">
+            <div class="face front"></div>
+            <div class="face back">
+                <h5>Foundation</h5>
+                <p>price : 200$ </p>
+                <p>18 pieces</p>
+                <button class="btnGallery"><a href="#foundation">See its Collection</a></button>
+            </div>
+        </div>
+        <div class="box box5">
+            <div class="face front"></div>
+            <div class="face back">
+                    <h5>Eye Shadow</h5>
+                    <p>price : 300$ </p>
+                    <p>5 pieces</p>
+                    <button class="btnGallery"><a href="#palet">See its Collection</a></button>
+                </div>
+        </div>
+        <div class="box box6">
+            <div class="face front"></div>
+            <div class="face back">
+                    <h5>Blusher</h5>
+                    <p>price : 50$ </p>
+                    <p>50 pieces</p>
+                    <button class="btnGallery"><a href="#blusher">See its Collection</a></button>
+                </div>
+        </div>
+    </div>
+</div>
+<div style="margin-bottom: 20%;" id="rog"></div>
+    <div class="slider1" >
+        <div class="images">
+            <input type="radio" name="slide" id="rog1" checked>
+            <input type="radio" name="slide" id="rog2">
+            <input type="radio" name="slide" id="rog3">
+            <input type="radio" name="slide" id="rog4">
+
+            <img src="images/rog1.jpg" class="rog1" alt="img1">
+            <img src="images/rog2.jpg" class="rog2" alt="img2">
+            <img src="images/rog3.jpg" class="rog3" alt="img3">
+        </div>
+        <div class="dots">
+            <label for="rog1"></label>
+            <label for="rog2"></label>
+            <label for="rog3"></label>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 20%;" id="brushes"></div>
+    <div class="slider2" >
+        <div class="images">
+            <input type="radio" name="slide" id="brushes1" checked>
+            <input type="radio" name="slide" id="brushes2">
+            <input type="radio" name="slide" id="brushes3">
+
+            <img src="images/brushes1.jpg" class="brushes1" alt="img1">
+            <img src="images/brushes2.jpg" class="brushes2" alt="img2">
+            <img src="images/brushes3.jpg" class="brushes3" alt="img3">
+        </div>
+        <div class="dots">
+            <label for="brushes1"></label>
+            <label for="brushes2"></label>
+            <label for="brushes3"></label>
+        </div>
+    </div>
+    <div style="margin-bottom: 20%;" id="eyeliner"></div>
+    <div class="slider3" >
+        <div class="images">
+            <input type="radio" name="slide" id="eyeliner1" checked>
+            <input type="radio" name="slide" id="eyeliner2">
+            <input type="radio" name="slide" id="eyeliner3">
+
+            <img src="images/eyeliner1.jpg" class="eyeliner1" alt="img1">
+            <img src="images/eyeliner2.jpg" class="eyeliner2" alt="img2">
+            <img src="images/eyeliner3.jpg" class="eyeliner3" alt="img3">
+        </div>
+        <div class="dots">
+            <label for="eyeliner1"></label>
+            <label for="eyeliner2"></label>
+            <label for="eyeliner3"></label>
+        </div>
+    </div>
+    <div style="margin-bottom: 20%;" id="foundation"></div>
+    <div class="slider4" >
+        <div class="images">
+            <input type="radio" name="slide" id="foundation1" checked>
+            <input type="radio" name="slide" id="foundation2">
+            <input type="radio" name="slide" id="foundation3">
+
+            
+            <img src="images/foundation2.jpg" class="foundation2" alt="img2">
+            <img src="images/foundation1.jpg" class="foundation1" alt="img1">
+            <img src="images/foundation3.jpg" class="foundation3" alt="img3">
+        </div>
+        <div class="dots">
+            <label for="foundation1"></label>
+            <label for="foundation2"></label>
+            <label for="foundation3"></label>
+        </div>
+    </div>
+    <div style="margin-bottom: 20%;" id="palet"></div>
+    <div class="slider5" >
+        <div class="images">
+            <input type="radio" name="slide" id="palet1" checked>
+            <input type="radio" name="slide" id="palet2">
+            <input type="radio" name="slide" id="palet3">
+            <input type="radio" name="slide" id="palet4">
+
+            <img src="images/palet1.jpg" class="palet1" alt="img1">
+            <img src="images/palet2.jpg" class="palet2" alt="img2">
+            <img src="images/palet3.jpg" class="palet3" alt="img3">
+            <img src="images/palet4.jpg" class="palet4" alt="img4">
+        </div>
+        <div class="dots">
+            <label for="palet1"></label>
+            <label for="palet2"></label>
+            <label for="palet3"></label>
+            <label for="palet4"></label>
+        </div>
+    </div>
+    <div style="margin-bottom: 20%" id="blusher"></div>
+    <div class="slider6" >
+        <div class="images">
+            <input type="radio" name="slide" id="blusher1" checked>
+            <input type="radio" name="slide" id="blusher2">
+            <input type="radio" name="slide" id="blusher3">
+            
+            <img src="images/blusher1.jpg" class="blusher1" alt="img1">
+            <img src="images/blusher2.jpg" class="blusher2" alt="img2">
+            <img src="images/blusher3.jpg" class="blusher3" alt="img3">
+            
+        </div>
+        <div class="dots">
+            <label for="blusher1"></label>
+            <label for="blusher2"></label>
+            <label for="blusher3"></label>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="Join">
+            <h3>Join US</h3>
+            <input type="email" placeholder="Email">
+            <button type="submit" class="btnn">Subscribe</button>
+        </div>
+        <div class="contact" id="contact">
+        <ul>
+            <h3 class="ConH">Contact Us</h3>
+            <li><a href="https://www.facebook.com/eman.ramadan.37201901" target="_blank"><img src="images/facebook.png"><span>Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/emy_ramadan_11/" target="_blank"><img src="images/Instagram.png"><span>Instagram</span></a></li>
+            <li><a href="https://www.linkedin.com/in/eman--ramadan/" target="_blank"><img src="images/linkedin.png"><span>linkedin</span></a> </li>
+        </ul>
+        </div>
+        <h4 style="text-align: center;">copyright &copy; All rights reserved, 2022 Beauty</h4>
+    </footer>
+</body>
+</html>
